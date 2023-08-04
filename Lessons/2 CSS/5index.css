@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    border: 1px solid black;
+}
+
+h2{
+    color: purple;
+}
+
+input{
+    border: 2px solid rgb(144,0,0);
+}
+
+div p{
+    background-color: blue;
+}
+
+#t{
+    border: 5px solid grey;
+    width: 800px;
+    height: 400px;
+}
