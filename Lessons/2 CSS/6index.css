@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Borel', cursive;
+    text-align: center;
+}
+
+p{
+    font-family: monospace;
+}
+
+body{
+    font-size: 20px;
+}
+
+#two{
+    font-size: 2.0em;
+    font-family: Oswald, sans-serif;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
