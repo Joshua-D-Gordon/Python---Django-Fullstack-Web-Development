@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovers transitions animations</title>
+</head>
+<body>
+    <style>
+        .sub{
+            background-color: red;
+            color: white;
+            border-radius: 2px;
+            height: 36px;
+            width: 100px;
+            margin: 10px;
+            cursor: pointer;
+            transition: opacity 1s;
+
+        }
+
+        .sub:hover{
+            opacity: 0.2;
+            color: white;
+            border-radius: 2px;
+            height: 36px;
+            width: 100px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .sub:active{
+            background-color: rgb(184, 91, 255);
+            color: white;
+            border-radius: 2px;
+            height: 36px;
+            width: 100px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .join{
+            background-color: white;
+            color: blue;
+            border-radius: 2px;
+            border: 1px solid blue;
+            height: 36px;
+            width: 100px;
+            margin: 10px;
+        }
+
+        .tweet{
+            background-color:aqua;
+            color: white;
+            border-radius: 25px;
+            border: 1px solid aqua;
+            height: 36px;
+            width: 100px;
+            margin: 10px
+        }
+    </style>
+
+    <button class="sub">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">TWEET</button>
+</body>
+</html>
