@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid practice</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="display: grid; grid-template-columns: 100px 100px;">
+        <div style="background-color: aqua;">div 1</div>
+        <div style="background-color: brown;">div 2 <p>this is text</p></div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 100px 100px 200px; margin-top: 30px;">
+        <div style="background-color: aqua;">div 1</div>
+        <div style="background-color: brown;">div 2 <p>this is text</p></div>
+        <div style="background-color: aqua;">div 3</div>
+        <div style="background-color: brown;">div 2 </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr; margin-top: 30px;">
+        <div style="background-color: aqua;">100px</div>
+        <div style="background-color: brown;">1fr</div>
+        
+    </div>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 30px">
+        <div style="background-color: aqua;">100px</div>
+        <div style="background-color: brown;">1fr</div>
+        <div style="background-color: rgb(42, 104, 165);">1fr</div>
+        
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 30px; column-gap: 20px; row-gap: 20px;">
+        <div style="background-color: aqua; height: 200px;">
+            <div class="video-preview">
+                <div class="tn">
+                    <img class="thumbnail" src="img1.png" alt="thubnail" width="300px">
+                </div>
+                <div>
+                    <div class="channel-picture" style="display: inline-block;">
+                        <img src="img1.png" alt="" width="50px">
+                    </div>
+                    <div class="channel-info">
+                        <p class="video-title">Video titel</p>
+                        <p class="cn">channel name</p>
+                        <p class="views">views and upload date</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: brown;">1fr</div>
+        <div style="background-color: rgb(42, 104, 165);">1fr</div>
+        <div style="background-color: aqua; height: 200px;">1fr</div>
+        <div style="background-color: rgb(42, 104, 165);">1fr</div>
+        <div style="background-color: brown;">1fr</div>
+        
+    </div>
+</body>
+</html>

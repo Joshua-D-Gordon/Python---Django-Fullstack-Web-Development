@@ -1,0 +1,39 @@
+
+.thumbnail{
+    width: 100%;
+    display: block;
+    
+}
+
+div{
+    display: inline-block;
+}
+
+
+.channel-picture{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.channel-picture img{
+    width: 50px;
+    border-radius: 50px;
+    
+}
+
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+
+.tn{
+    display: block;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
