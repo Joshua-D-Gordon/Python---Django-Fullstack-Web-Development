@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gpt.css">
+  <title>Dashboard Example</title>
+</head>
+<body>
+
+    <header>
+      <div class="logo">Your Logo</div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+      </div>
+      <div class="user-icons">
+        <img src="user-icon1.png" alt="User Icon 1">
+        <img src="user-icon2.png" alt="User Icon 2">
+        <!-- Add more user icons as needed -->
+      </div>
+    </header>
+    
+    <div class="main-content">
+      <button class="collapse-btn" onclick="toggleSidebar()">☰</button>
+      <div class="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">✕</button>
+        <!-- Sidebar content here -->
+        Sidebar Content
+      </div>
+    
+      <div class="task-board">
+        <div class="column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <h2>To Do</h2>
+          <div class="card" id="card1" draggable="true" ondragstart="drag(event)">
+            Task 1
+          </div>
+          <div class="card" id="card2" draggable="true" ondragstart="drag(event)">
+            Task 2
+          </div>
+        </div>
+        <div class="column" id="in-progress" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <h2>In Progress</h2>
+          <!-- Add tasks here -->
+        </div>
+        <div class="column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <h2>Done</h2>
+          <!-- Add tasks here -->
+        </div>
+      </div>
+    </div>
+    
+    <script src="gpt.js"></script>
+    </body>
+    </html>

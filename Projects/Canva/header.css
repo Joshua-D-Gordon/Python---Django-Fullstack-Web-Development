@@ -1,0 +1,81 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    width: 200;
+    align-items: center;
+
+}
+
+.nav-mid {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    width: 350;
+    
+    align-items: center;
+}
+
+.hamburger-menu{
+    width: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+
+.logo{
+    height: 25px;
+}
+
+.nav-link{
+    padding-right: 15px;
+    font-family: Roboto, Arial;
+}
+
+.profile-picture{
+    background-color: yellow;
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    border-radius: 17px;
+}
+
+
+
+.create-btn{
+    height: 35px;
+    width: 120px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Roboto, Arial;
+}
+
+.nav-right svg{
+    padding-right: 10px;
+}

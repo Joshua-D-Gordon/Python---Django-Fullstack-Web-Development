@@ -1,0 +1,143 @@
+main{
+    font-family: Roboto, Arial;
+}
+
+.hero-banner-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 213px;
+    margin-top: 70px;
+    height: 220px;
+    justify-content: center;
+    
+}
+
+.hero-banner{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(167, 0, 167);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.hero-banner-btns{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.hero-banner-btns button{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    background-color: rgba(99, 44, 226, 0.5);
+    font-family: Roboto, Arial;
+    color:antiquewhite;
+    
+}
+
+.hero-banner-slogan{
+    position: absolute;
+    left: 380px;
+    top: 40px;
+    font-size: 20px;
+    color: antiquewhite;
+    
+}
+
+.hero-banner-search{
+    position: absolute;
+    left: 310px;
+    top: 80px;
+}
+
+.hero-banner-search-input{
+    height: 39px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 400px;
+}
+
+.icons-container{
+    position: absolute;
+    left: 250px;
+    top: 140px;
+}
+
+.icons{
+    display: flex;
+    flex-direction:row ;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+.designs{
+    background-color: white;
+    margin-left: 213px;
+}
+
+.designs p{
+    margin-left: 10px;
+}
+
+.design-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    margin-left: 10px;
+}
+
+.thumbnail{
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.i1{
+    background-color: blue;
+}
+
+.i2{
+    background-color: yellow;
+}
+
+.i3{
+    background-color: lightsalmon;
+}
+
+.i4{
+    background-color: aquamarine;
+}
+
+.i5{
+    background-color: lightpink;
+}
+
+.i6{
+    background-color: blueviolet;
+}
+
+.i7{
+    background-color: orange;
+}
+
+.i8{
+    background-color: red;
+}
+
+.recent-designs{
+    font-size: 20px;
+}

@@ -1,0 +1,158 @@
+.logo{
+    width: 100px;
+    
+}
+
+.hamburger-menu{
+    width: 40px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(192,192,192);
+}
+
+.header-mid{
+    display: flex;
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 300px;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    height: 39px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    padding-left: 10px
+    ;
+}
+
+.search-button{
+    height: 39px;
+    width: 60px;
+    
+    border: 1px solid rgb(192,192,192);
+    margin-left: -2px;
+    margin-right: 10px;
+}
+
+.voice-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245,245,245);
+}
+
+.voice-icon{
+    height: 24px;
+    margin-top: 4px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+
+.header-right{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.header-left{
+    
+    display: flex;
+    align-items: center;
+}
+
+.upload-icon{
+    height: 24px;
+    
+}
+.youtube-apps-icon{
+    height: 24px;
+   
+}
+.notifications-icon{
+    height: 24px;
+    
+}
+
+.current-user-picture{
+    height: 32px;
+    border-radius: 16px;
+}
+
+.notifications-icon-container{
+    position: relative;
+}
+
+.notification-counter{
+    position: absolute;
+    top: -2px;
+    right: -6px;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.sidebar-link{
+    height: 74px;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(192, 192, 192);
+    cursor: pointer;
+}
+
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
