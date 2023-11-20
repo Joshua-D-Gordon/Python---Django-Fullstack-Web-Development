@@ -1,0 +1,99 @@
+aside {
+    position: fixed;
+    top: 65px;
+    left:0;
+    bottom:0;
+    width: 200px;
+    border-top: 1px solid rgb(192, 192, 192);
+    border-right: 1px solid rgb(192, 192, 192);
+    font-family: Roboto, Arial;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-picture-side-bar{
+    margin-right: 12px;
+   
+    margin-left: 10px;
+    background-color: yellow;
+    height: 35px;
+    width: 35px;
+    border-radius: 17px;
+}
+
+.profile-picture-side-bar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 17px;
+}
+
+.profile-picture-txt{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture-txt p{
+    font-size: 12px;
+    margin: 0; padding: 0;
+    
+}
+
+.create-btn-side-bar{
+    height: 35px;
+    width: 180px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.side-bar-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.side-bar-menu svg{
+    margin-left: 12px;
+}
+
+.side-bar-menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.side-bar-menu-item-txt{
+    margin-left:10px ;
+    font-size: 16px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.side-bar-menu-item:hover{
+    background-color: rgba(138, 44, 226, 0.2);
+}
+
+
+.side-bar-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
