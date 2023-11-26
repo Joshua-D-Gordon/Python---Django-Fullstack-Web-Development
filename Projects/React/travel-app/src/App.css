@@ -1,0 +1,53 @@
+.header{
+  height: 80px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav div img{
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.nav div h3{
+  color: azure;
+}
+
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: center;
+}
+
+.card-container div img{
+  border-radius: 25px;
+}
+
+.location-link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-link h4{
+  margin-right: 10px;
+}
+
+.right{
+  padding: 15px;
+}
+
+.cards-list{
+  display: flex;
+  overflow: scroll;
+}

@@ -1,0 +1,26 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+  background-color: black;
+  align-items: center;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+}
+
+.main{
+  margin: 20px;
+}
+
+.header img{
+  height: 50px;
+}
+
+.footer ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}

@@ -1,0 +1,30 @@
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li{
+    padding:10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+}
+
+.footer ol {
+    display: flex;
+    list-style: none;
+}
+
+.footer li{
+    padding:10px
+}

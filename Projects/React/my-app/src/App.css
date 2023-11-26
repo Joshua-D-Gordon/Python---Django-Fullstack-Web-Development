@@ -1,0 +1,59 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: azure;
+  align-items: center;
+  border-bottom: solid 1px rgb(192,192,192);
+}
+
+.navbar-mid{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.navbar-left img{
+  border-radius: 25px;
+}
+
+.navbar-right button{
+  width:120px;
+  height:35px;
+  border-radius: 4px;
+  background-color: lightcoral;
+  color: white;
+  border: solid 1px black
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.grid img{
+  margin: 5px;
+  border-radius: 15px;
+}
+.main{
+  margin-left: 20px;
+}
+
+.main p{
+  width: 300px;
+}
+
+
+.listimg img{
+  border-radius: 15px;
+  position: relative;
+}
+
+
+.cardlst{
+  margin-left: 20px;
+}
